@@ -1,0 +1,22 @@
+
+input[type=range].volume {
+    width: 400px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    border-radius: 10px/100%;
+    height: 17px;
+    border: 1px solid blue;
+    background-color: yellow;
+  }
+
+input[type=range].timing {
+    width: 100%;
+}
+
+.player {
+    display: flex;
+flex-direction: column;
+width: 700px;
+border: 5px solid black;
+}
